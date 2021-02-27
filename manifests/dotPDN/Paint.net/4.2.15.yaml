@@ -1,0 +1,19 @@
+---
+
+Id: dotPDN.Paint.Net
+Version: 4.2.15
+Name: Paint.net
+Publisher: dotPDN
+License: Copyright (c) dotPDN LLC
+AppMoniker: Paint.net
+Tags: paint
+Description: Paint.NET is image and photo editing software for PCs that run Windows.
+Homepage: https://www.getpaint.net/index.html
+Installers:
+  - Arch: x64
+    Url: https://www.dotpdn.com/files/paint.net.4.2.15.install.zip
+    Sha256: 7D1B3B9B7E4BBB226DA91E1C635C5FB8C7388D1337A48095348A102482BB30F3
+    InstallerType: exe
+    Switches: 
+        Silent: /s
+        SilentWithProgress: /s
