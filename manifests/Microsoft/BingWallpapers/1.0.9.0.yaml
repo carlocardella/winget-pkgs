@@ -1,0 +1,20 @@
+---
+
+Id: Microsoft.BingWallpapers
+Version: 1.0.9.0
+Name: BingWallpapers
+Publisher: Microsoft
+License: Copyright (c) Microsoft Corporation
+AppMoniker: BingWallpapers
+Tags: wallpapers, bing
+Description: Bing Wallpaper includes a collection of beautiful images from around the world that have been featured on the Bing homepage
+Homepage: https://www.microsoft.com/en-us/bing/bing-wallpaper-msn
+Installers:
+  - Arch: x64
+    Url: https://go.microsoft.com/fwlink/?linkid=2132889&pc=W069
+    Sha256: F512C76BF28D980DDAAB85690235979B3AAD5CC6120FEA10A66C83C44E6E8818
+    InstallerType: exe
+    Switches:
+      Silent: /s
+      SilentWithProgress: /s
+
