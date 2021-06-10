@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+PackageIdentifier: Microsoft.BingWallpaper
+PackageVersion: 1.0.9.2
+MinimumOSVersion: 10.0.0.0
+Commands:
+  - BingWallpaper
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+Installers:
+  - Architecture: x64
+    InstallerType: exe
+    InstallerUrl: https://go.microsoft.com/fwlink/?linkid=2126595&pc=w069&rtc=1
+    InstallerSha256: 7F400BE3622A03316B4134096BB96E08F93817D6E54A01D935265CB6CF9125BD
+    InstallerSwitches:
+      Silent: /quiet
+      SilentWithProgress: /passive
+    #    ProductCode:
+    #    Scope:
+    InstallerLocale: us-US
+    UpgradeBehavior: install
+ManifestType: installer
+ManifestVersion: 1.0.0

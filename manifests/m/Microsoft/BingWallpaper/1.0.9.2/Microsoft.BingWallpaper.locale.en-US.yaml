@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultlocale.1.0.0.schema.json
+PackageIdentifier: Microsoft.BingWallpaper
+PackageVersion: 1.0.9.2
+PackageLocale: en-US
+Publisher: Microsoft Corporation
+#PublisherUrl:
+#PublisherSupportUrl:
+#PrivacyUrl:
+#Author:
+PackageName: Bing Wallpaper
+#PackageUrl:
+License: Copyright (c) Microsoft Corporation
+#LicenseUrl:
+#Copyright:
+#CopyrightUrl:
+ShortDescription: Bring your desktop to life with a new background each day when you download Bing Wallpaper
+#Description:
+Moniker: BingWallpaper
+Tags:
+  - bing
+  - wallpapers
+ManifestType: defaultLocale
+ManifestVersion: 1.0.0
